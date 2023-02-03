@@ -1,0 +1,19 @@
+Name - Cipher Puzzle
+
+Author - Ramya
+
+Description - 
+"Each scar's is a cipher rimmed with old barbs and landmines, protecting its truth." - J.L.B. Smith
+flaf format - shaktictf{...}
+
+Challenge files - 
+cipher_puzzle_chall.txt
+
+Challenge Details -
+The flag is encoded multiple times using encryption methods of affine cipher followed by
+binary encryption, then morse code. 
+
+Challenge Solution -
+Decryption in the reverse order - morse -> binary -> affine
+will fetch the flag.
+flag - shaktictf{5h4k7iC0nM0R53}
